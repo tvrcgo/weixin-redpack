@@ -1,0 +1,27 @@
+{
+  "name": "weixin-redpack",
+  "version": "1.0.0",
+  "description": "send redpack by enterprise",
+  "main": "index.js",
+  "dependencies": {
+    "MD5": "^1.2.1",
+    "request": "^2.53.0",
+    "xml2js": "^0.4.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tvrcgo/weixin-redpack.git"
+  },
+  "keywords": [
+    "weixin",
+    "wechat",
+    "redpack",
+    "payment"
+  ],
+  "author": "tvrcgo",
+  "license": "MIT"
+}

@@ -10,6 +10,7 @@ npm install weixin-redpack
 
 ### Usage
 
+先创建一个红包实例 Redpack，再调用 send() 发送红包，减少每次发红包的参数。
 ```js
 var Redpack = require('weixin-redpack').Redpack;
 
@@ -36,6 +37,7 @@ redpack.send({
 })
 ```
 
+直接调用 sendRedpack() 输入所有参数。
 ```js
 var wxredpack = require('weixin-redpack');
 

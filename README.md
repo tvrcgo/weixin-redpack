@@ -1,8 +1,6 @@
 # weixin-redpack
 微信发企业红包 for node.js
 
-v1.1.0
-
 ### Installation
 ```
 npm install weixin-redpack

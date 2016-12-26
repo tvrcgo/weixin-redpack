@@ -12,6 +12,8 @@ npm install weixin-redpack
 ```js
 var Redpack = require('weixin-redpack').Redpack;
 
+//如果要设置红包限额，需要设置 scene_id，可在下面Redpack的实例中直接传入，如 `scene_id: "PRODUCT_4"`
+
 var redpack = Redpack({
 	mch_id: 'xxx',
 	partner_key: 'xxxxxx',

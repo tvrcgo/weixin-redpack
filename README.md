@@ -1,4 +1,5 @@
 # redpack4weixin
+
 微信发企业红包 for node.js
 
 fork from tvrcgo/weixin-redpack

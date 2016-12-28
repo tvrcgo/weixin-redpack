@@ -1,9 +1,9 @@
-# weixin-redpack
+# wechat-redpack
 微信发企业红包 for node.js
 
 ### Installation
 ```
-npm install weixin-redpack
+npm install wechat-redpack
 ```
 
 ### Usage

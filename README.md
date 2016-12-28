@@ -1,16 +1,20 @@
-# weixin-redpack
+# redpack4weixin
 微信发企业红包 for node.js
+
+fork from tvrcgo/weixin-redpack
+
+fixed emoji表情引发的错误
 
 ### Installation
 ```
-npm install weixin-redpack
+npm install redpack4weixin --save
 ```
 
 ### Usage
 
 先创建一个红包实例 Redpack，再调用 send() 发送红包，减少每次发红包的参数。
 ```js
-var Redpack = require('weixin-redpack').Redpack;
+var Redpack = require('redpack4weixin').Redpack;
 
 //如果要设置红包限额，需要设置 scene_id，可在下面Redpack的实例中直接传入，如 `scene_id: "PRODUCT_4"`
 
@@ -39,7 +43,7 @@ redpack.send({
 
 直接调用 sendRedpack() 输入所有参数。
 ```js
-var wxredpack = require('weixin-redpack');
+var wxredpack = require('redpack4weixin');
 
 wxredpack.sendRedpack({
   mch_id: 'xxx',
